@@ -2,8 +2,10 @@
   <h2><b>Details:</b> {{ hero.name | uppercase }}</h2>
   <div><span>id: </span>{{ hero.id }}</div>
   <div>
-    <label>
+    <label
+      >name:
       <input [(ndModel)]="hero.name" placeholder="name" />
     </label>
   </div>
+  <button (click)="goBack()">go back</button>
 </div>
