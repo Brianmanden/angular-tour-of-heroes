@@ -17,11 +17,11 @@
   position: relative;
 }
 
-.heroes li:hover {
+/* .heroes li:hover {
   background-color: #ddd;
   color: #607db8;
   left: 0.1em;
-}
+} */
 
 .heroes li.selected {
   background-color: #cfd8dc;
@@ -46,4 +46,10 @@
   padding: 0.8em 0.7em 0 0.7em;
   position: relative;
   top: -4px;
+}
+
+.heroes button {
+  float: right;
+  margin-right: 6px;
+  margin-top: 2px;
 }

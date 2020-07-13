@@ -18,6 +18,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-family: Arial;
+  margin-right: 10px;
   margin-top: 20px;
   padding: 5px 10px;
 }
